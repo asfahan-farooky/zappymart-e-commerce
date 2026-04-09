@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeppyMart - Your Direct Shopping Destination</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Images/logo2.png" height="35" width="80" alt="">
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to <h2 style="color: rgb(255, 255, 118)">ZappyMart</h2></h2>
+                <p>Your one-stop destination for quality products at direct prices</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search products...">
+                <span class="search-icon">&#128269;</span> <!-- Unicode for 🔍 -->
+            </div>
+        </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p5.1.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p5.2.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p5.4.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p5.3.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p5.5.jpg" alt="Product 1" class="gallery-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>GramGainer - weight gainer (500gm) </h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <p class="price">₹499/-</p>
+                        <p class="product-description short">
+                                🔹Wajan badhao, kamzori bhagao
+                            <span class="more-text">
+                                <br>
+                                🔹Pet shaant aur saaf rakhta hai
+                                <br>
+                                🔹Pachan ko majboot banata hai 
+                                <br> 
+                                🔹 Bhookh ko badhata hai
+                                <br>
+                                🔹Sharirik kamzori door karta hai
+                                <br>
+                                🔹Chemical free
+                                <br>
+                                🔹100% Homemade
+                                <br>
+                                🔹Ayurvedic inspired
+                                <br>
+                            </span>
+                        </p>
+                        <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="5" data-name="GramGainer" data-price="499">Add to Cart</button>
+                    </div>
+                </div>
+                                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p6.1.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p6.6.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p6.7.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p6.2.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p6.3.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p6.4.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p6.5.webp" alt="Product 1" class="gallery-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Frekman Stylish Cotton Blend Printed Men's Shirt(🔹M🔹L🔹XL)</h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <p class="price">₹349/-</p>
+                        <p class="product-description short">
+                                🔹Fabric : Cotton
+                            <span class="more-text">
+                                <br>
+                                🔹Sleeve Length : Long Sleeves
+                                <br>
+                                🔹Pattern : Checked
+                                <br> 
+                                🔹Net Quantity (N) : 1
+                                <br>
+                                🔹M (Chest Size : 38 in, Length Size: 28 in)
+                                <br>
+                                🔹L (Chest Size : 40 in, Length Size: 29 in)
+                                <br>
+                                🔹XL (Chest Size : 42 in, Length Size: 30 in)
+                                <br>
+                                🔹Three colors avlaibles 
+                                <br>
+                                🔹Red 🔹Orenge 🔹Black
+                                <br>
+                            </span>
+                        </p>
+                        <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="6" data-name="Frekman Stylish Cotton Blend Printed Men's Shirt" data-price="349">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p1.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p1.5.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p1.3.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p1.4.jpg" alt="Product 1" class="gallery-img">
+                        <img src="Images/p1.2.jpg" alt="Product 1" class="gallery-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Air Pods Pro </h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <p class="price">₹499/-</p>
+                        <p class="product-description short">
+                                🔹Compatibility - All Smartphones
+                            <span class="more-text">
+                                <br>
+                                🔹Water Resistant - Yes
+                                <br>
+                                🔹Material - ABS Plastic 
+                                <br> 
+                                🔹Warranty Period - 1 Month
+                                <br>
+                                🔹Warranty Type - Mic
+                                <br>
+                                🔹Carry In - Yes
+                                <br>
+                                🔹Bluetooth Version - 5.3
+                                <br>
+                                🔹Charging Type - IOS
+                                <br>
+                                🔹Noise Cancelling - Yes
+                                <br>
+                                🔹Frequency - 95 Hz
+                                <br>
+                                🔹Country of Origin -India
+                                <br>
+                                🔹Manufacturer Information - CLERBY INDIA
+                                <br>
+                                🔹Importer Information - CLERBY INDIA
+                            </span>
+                        </p>
+                        <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="1" data-name="Air Pods Pro" data-price="499">Add to Cart</button>
+                    </div>
+                </div>
+
+                    <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p7.1.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p7.2.webp" alt="Product 1" class="gallery-img">
+                        <img src="Images/p7.3.webp" alt="Product 1" class="gallery-img">
+                        <!-- <img src="p6.2.webp" alt="Product 1" class="gallery-img">
+                        <img src="p6.3.webp" alt="Product 1" class="gallery-img">
+                        <img src="p6.4.webp" alt="Product 1" class="gallery-img">
+                        <img src="p6.5.webp" alt="Product 1" class="gallery-img"> -->
+                    </div>
+                    <div class="product-info">
+                        <h3>KEESOR Men Tshirt|Men Printed Round neck Tshirt|Men Graphic print Tshirt(🔹S🔹M🔹L🔹XL🔹XXL)</h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="rating-text">(4.0)</span>
+                        </div>
+                        <p class="price">₹349/-</p>
+                        <p class="product-description short">
+                                🔹Fabric : Cotton Blend
+                            <span class="more-text">
+                                <br>
+                                🔹Sleeve Length : Short Sleeves
+                                <br>
+                                🔹Pattern : Printed
+                                <br> 
+                                🔹Net Quantity (N) : 1
+                                <br>
+                                🔹S (Chest Size : 36 in, Length Size: 27 in)
+                                <br>
+                                🔹M (Chest Size : 38 in, Length Size: 28 in)
+                                <br>
+                                🔹L (Chest Size : 40 in, Length Size: 29 in)
+                                <br>
+                                🔹XL (Chest Size : 42 in, Length Size: 30 in)
+                                <br>
+                                🔹XXL (Chest Size : 44 in, Length Size: 31 in)
+                                <br>
+                                🔹Three colors avlaibles 
+                                <br>
+                                🔹Red 🔹purple 🔹Black
+                                <br>
+                            </span>
+                        </p>
+                        <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="7" data-name="KEESOR Men Tshirt|Men Printed Round neck Tshirt|Men Graphic print Tshirt" data-price="349">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p2.1.jpg" alt="Product 2" class="gallery-img">
+                        <img src="Images/p2.2.jpg" alt="Product 2" class="gallery-img"> 
+                        <img src="Images/p2.3.jpg" alt="Product 2" class="gallery-img">
+                        <img src="Images/p2.4.jpg" alt="Product 2" class="gallery-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kurti</h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="rating-text">(4.0)</span>
+                        </div>
+                        <p class="price">₹299/-</p>
+                        <p class="product-description short">
+                                   🔹Fabric : Rayon
+                            <span class="more-text">
+                                    <br>
+                                    🔹Sleeve Length : Three-Quarter Sleeves
+                                    <br>
+                                    🔹Pattern : Embroidered
+                                    <br>
+                                    🔹Combo of : Single
+                                    <br>
+                                    🔹Sizes :  
+                                    <br>
+                                    🔹XS, S (Bust Size : 36 in, Size Length: 44 in)
+                                    <br>
+                                    🔹M (Bust Size : 38 in, Size Length: 44 in)
+                                    <br>
+                                    🔹L (Bust Size : 40 in, Size Length: 44 in)
+                                    <br>
+                                    🔹XL (Bust Size : 42 in, Size Length: 44 in)
+                                    <br>
+                                    🔹XXL (Bust Size : 44 in, Size Length: 44 in)
+                            </span>
+                        </p>
+                        <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="2" data-name="Kurti" data-price="299">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p3.1.webp" alt="Product 3" class="gallery-img">
+                        <img src="Images/p3.2.webp" alt="Product 3" class="gallery-img">
+                        <img src="Images/p3.3.webp" alt="Product 3" class="gallery-img">
+                        <img src="Images/p3.4.webp" alt="Product 3" class="gallery-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mini Air Cooler</h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <p class="price">₹675/-</p>
+                            <p class="product-description short">
+                                🔹Material : Plastic
+                            <span class="more-text">
+                                <br>                                
+                                🔹Net Quantity (N) : 1
+                                <br>
+                                🔹Type : USB Air Cooler 
+                                <br>
+                                🔹Warranty Period : 1 Month 
+                                <br>
+                                🔹Warranty Type : Not Applicable 
+                                <br>
+                                🔹DETOKS TRADING Portable Rechargeable Usb Cooler Fan 
+                                <br>
+                                🔹Country of Origin : India 
+                                <br>
+                                🔹Ye mini air cooler compact size mein powerful cooling deta hai.Portable aur USB powered hone ke karan ye travel aur office ke liye perfect hai.Water tank ke sath mist function bhi diya gaya hai jo cooling ko aur enhance karta hai.</span>
+                            </p>
+                            <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="3" data-name="Mini Air Cooler" data-price="675">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Images/p4.webp" alt="Product 4" class="gallery-img">
+                    </div>
+                    <div class="product-info">
+                        <h3>8 Earings Set</h3>
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="rating-text">(4.0)</span>
+                        </div>
+                        <p class="price">₹349/-</p>
+                        <p class="product-description short">
+                                🔹8 Earing set
+                            <span class="more-text">
+                                🔹8 stylish Earing
+                                <br>
+                                🔹8 diffrent colors
+                                <br>
+                                🔹best Material
+                            </span>
+                        </p>
+                        <button class="toggle-description" style="margin-bottom: 10px;">Read More...</button>
+                        <button class="add-to-cart" data-id="4" data-name="8 Earings Set" data-price="349">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About ZeppyMart</h2>
+            <p>ZappyMart is a direct selling platform that connects customers with high-quality products at affordable prices. We cut out the middlemen to bring you the best deals directly from manufacturers.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p sty>Have questions? Reach out to us at <h4 style="color: #3a56d4;">zappymart786@gmail.com</h4> or call us at <h4 style="color: #3a56d4;">+91 8218733662</h4></p>
+        </section>
+    </main>
+
+    <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-cards">
+        <div class="testimonial">
+        <img src="https://i.pravatar.cc/150?img=1" alt="User 1">
+        <h4>Rohit Sharma</h4>
+        <div class="stars">★★★★★</div>
+        <p>“ZappyMart se maine Air buds pro liya tha, bhut hi zabardast quality thi! Highly recommended.”</p>
+        </div>
+
+        <div class="testimonial">
+        <img src="https://i.pravatar.cc/150?img=2" alt="User 2">
+        <h4>Priya Mehta</h4>
+        <div class="stars">★★★★★</div>
+        <p>“Bahut acchi service aur fast delivery. Mere doston ko bhi maine yahi se shopping karne bola hai.”</p>
+        </div>
+
+        <div class="testimonial">
+        <img src="https://i.pravatar.cc/150?img=3" alt="User 3">
+        <h4>Amit Verma</h4>
+        <div class="stars">★★★★☆</div>
+        <p>“Affordable products & great quality. Main fir se shopping yahi se karunga.”</p>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Follow Us Section -->
+    <section class="follow-us" style="text-align: center; padding: 40px 20px; background-color: #f9f9f9;">
+    <h2 style="font-size: 32px; margin-bottom: 20px;">Follow Us</h2>
+    <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+        <a href="https://www.instagram.com/zappymart?igsh=MTM5eGljMG91ZjhyaQ==" target="_blank" style="color: #E1306C; font-size: 40px;">
+        <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com/zappymart" target="_blank" style="color: #1877F2; font-size: 40px;">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/918218733662" target="_blank" style="color: #25D366; font-size: 40px;">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://t.me/zappymart" target="_blank" style="color: #0088cc; font-size: 40px;">
+        <i class="fab fa-telegram-plane"></i>
+        </a>
+        <a href="https://www.snapchat.com/add/zappymart?share_id=SYqxssJVnkc&locale=en-IN" target="_blank" style="color: #FFFC00; font-size: 40px;">
+        <i class="fab fa-snapchat-ghost"></i>
+    </a>
+    </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <img src="Images/logo2.png" height="35" width="80" alt="logo">
+            <span class="close-cart">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-total">
+                <p>Total: ₹<span class="total-amount">0</span></p>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Checkout Form -->
+    <div class="checkout-modal">
+        <div class="checkout-content">
+            <img src="Images/logo2.png" height="35" width="80" alt="logo">
+            <span class="close-checkout">&times;</span>
+            <h2>Checkout</h2>
+            <form id="checkout-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter Your 10-digit Mobile Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="Number">Pin Code</label>
+                    <input type="number" id="number" name="number" placeholder="Enter 6-digit Zipcode" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Shipping Address</label>
+                    <textarea id="address" name="address" rows="4" placeholder="Enter Your Full Address" required></textarea>
+                </div>
+                    <div class="form-group">
+                    <label for="name">City</label>
+                    <input type="text" id="city" name="city" placeholder="Enter Your City Name" required>
+                </div>
+                    <div class="form-group">
+                    <label for="name">State</label>
+                    <input type="text" id="state" name="state" placeholder="Enter Your State Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="payment">Payment Method</label>
+                    <select id="payment" name="payment" required>
+                        <option value="">Select Payment Method</option>
+                        <option value="cod">Cash on Delivery</option>
+                        <option value="upi">UPI Payment</option>
+                    </select>
+                </div>
+                <p style="color: red;">Note:- Your wear size and colors are ask on the WhatsApp, Your order details are send on the WhatsApp of ZappyMart when you place the order. Because we are a direct seller. </p>
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-items">
+                        <!-- Order items will be added here dynamically -->
+                    </div>
+                    <p class="summary-total">Total: ₹<span class="summary-total-amount">0</span></p>
+                </div>
+                <button type="submit" class="place-order-btn">Place Order On WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Order Success Modal -->
+    <div class="success-modal">
+        <div class="success-content">
+            <span class="close-success">&times;</span>
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Order Placed Successfully!</h2>
+            <p>Thank you for shopping with ZappyMart. We've sent the order details to you on Your WhatsApp.</p>
+            <button class="continue-shopping">Continue Shopping</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ZappyMart. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="" alt="Preview">
+  <div class="navigation">
+    <span class="prev">&#10094;</span>
+    <span class="next">&#10095;</span>
+  </div>
+</div>
+
+<script>
+  const images = document.querySelectorAll('.gallery-img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.querySelector('.lightbox-img');
+  const closeBtn = document.querySelector('.close');
+  const prevBtn = document.querySelector('.prev');
+  const nextBtn = document.querySelector('.next');
+
+  let currentIndex = 0;
+  let imgArray = [];
+
+  images.forEach((img, index) => {
+    imgArray.push(img.src);
+    img.addEventListener('click', () => {
+      currentIndex = index;
+      showImage();
+    });
+  });
+
+  function showImage() {
+    lightbox.style.display = 'flex';
+    lightboxImg.src = imgArray[currentIndex];
+  }
+
+  closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + imgArray.length) % imgArray.length;
+    showImage();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % imgArray.length;
+    showImage();
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.style.display = 'none';
+    }
+  });
+</script>
+</body>
+</html>
